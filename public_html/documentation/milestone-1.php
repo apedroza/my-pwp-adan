@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8"/>
 
-		<title>Milestone 1- Adam PWP</title>
+		<title>Milestone 1- my-pwp-adan</title>
 
 	</head>
 	<body>
@@ -39,10 +39,14 @@
 
 
 
+		<img src="img/rickjames.jpg">
+
+
+
 
 		<h2 class="foo-heading"><b>Use Case</b></h2>
 
-		<p id="description"></p>
+		<p id="description">Rick's batchelor   eats out at least 6 times a week, usually it's for lunch </p>
 
 
 	</body>
