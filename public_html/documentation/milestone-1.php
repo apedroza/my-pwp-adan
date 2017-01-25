@@ -35,7 +35,7 @@
 		<p id="description"><strong>Behaviors and Habits:</strong>  Rick is well aware of his strengths and has consistently had business partners to help him with technology and marketing ideas.
 			His time management is wellrounded, working about 38-40 hours a week while filling most all of his free time with hobies and activities</p>
 
-		<p id="description"><strong>Needs:</strong>  Rick has great idea for a new start-up company, designing and selling custome made boots. Since his father was also in the boot business, Rick is already familiar and confident with the
+		<p id="description"><strong>Needs:</strong>  Rick has a great idea for a new start-up company, designing and selling custome made boots. Since his father was also in the boot business, Rick is already familiar and confident with the
 			logistics of the business. Now he'e looking for someone to help him with the marketing and web development aspect.</p>
 
 
