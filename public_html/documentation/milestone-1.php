@@ -40,8 +40,7 @@
 
 
 
-		<img src="img/rickjames.jpg">
-
+		<img src="img/rickjames.jpg" alt="rickjames">
 
 
 
