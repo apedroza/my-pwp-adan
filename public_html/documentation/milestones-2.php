@@ -1,49 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<link rel="stylesheet" href="css/documentation.css" type="text/css"/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script>
-			$( document ).ready(function() {
-				$("#mobile").click(function() {
-					$("#img1").toggle(function() {
-						if($("#img2").css('display') != 'none') {
-							$("#img2").toggle("fast");
-						}
-					});
-				})
-				$("#desktop").click(function() {
-					$("#img2").toggle(function() {
-						if($("#img1").css('display') != 'none') {
-							$("#img1").toggle("fast");
-						}
-					});
-				})
-			});
-		</script>
-		<style>
-			.clickthing {
-				color: blue;
-			}
-			.wireframe {
-				width: 70%;
-			}
-			.wireframe2 {
-				width: 50%;
-			}
-			.clickthing:hover {
-				cursor: pointer;
-				color: aqua;
-			}
-			#img1 {
-				display: none;
-			}
-			#img2 {
-				display: none;
-			}
-			#wireframes {
-				margin-bottom: 200px;
-			}
-		</style>
+		<script src="js/documentation.js"></script>
+
 		<meta charset="utf-8"/>
 
 

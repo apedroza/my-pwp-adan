@@ -1,0 +1,23 @@
+
+.clickthing {
+	color: blue;
+}
+.wireframe {
+	width: 70%;
+}
+.wireframe2 {
+	width: 50%;
+}
+.clickthing:hover {
+	cursor: pointer;
+	color: aqua;
+}
+#img1 {
+	display: none;
+}
+#img2 {
+	display: none;
+}
+#wireframes {
+	margin-bottom: 200px;
+}
