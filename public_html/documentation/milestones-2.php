@@ -20,7 +20,11 @@
 		<h2 class="foo-heading">Wireframe</h2>
 
 
-		<img src="img/mobile.png" alt="mobile wireframe" width="700px">
+		<img src="img/mobile.png" alt="mobile wireframe" width="600px">
+
+		<img src="img/desktopwireframes.png" alt="desktop frames" width="450px">
+
+
 
 
 
