@@ -1,6 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script>
+			$( document ).ready(function() {
+				$("#mobile").click(function() {
+					$("#img1").toggle(function() {
+						if($("#img2").css('display') != 'none') {
+							$("#img2").toggle("fast");
+						}
+					});
+				})
+				$("#desktop").click(function() {
+					$("#img2").toggle(function() {
+						if($("#img1").css('display') != 'none') {
+							$("#img1").toggle("fast");
+						}
+					});
+				})
+			});
+		</script>
+		<style>
+			.clickthing {
+				color: blue;
+			}
+			.clickthing:hover {
+				cursor: pointer;
+				color: aqua;
+			}
+			#img1 {
+				display: none;
+			}
+			#img2 {
+				display: none;
+			}
+			#wireframes {
+				margin-bottom: 200px;
+			}
+		</style>
 		<meta charset="utf-8"/>
 
 
@@ -19,15 +56,16 @@
 
 		<h2 class="foo-heading">Wireframe</h2>
 
-
-		<img src="img/mobile.png" alt="mobile wireframe" width="600px">
-
-		<img src="img/desktopwireframes.png" alt="desktop frames" width="450px">
-
-
-
-
-
+		<section id="wireframes">
+			<h1>Wireframes</h1>
+			<p><strong id="mobile" class="clickthing">Mobile View</strong>  ||  <strong id="desktop" class="clickthing">Desktop view</strong></p>
+			<div id="img1">
+				<img src="img/mobile.png" alt="smart phone wire frame" width="30%" height="auto">
+			</div>
+			<div id="img2">
+				<img src="img/desktopwireframes.png" alt="desktop wire frame" width="50%" height="auto">
+			</div>
+		</section>
 
 	</body>
 </html>
