@@ -24,6 +24,12 @@
 			.clickthing {
 				color: blue;
 			}
+			.wireframe {
+				width: 70%;
+			}
+			.wireframe2 {
+				width: 50%;
+			}
 			.clickthing:hover {
 				cursor: pointer;
 				color: aqua;
@@ -60,10 +66,10 @@
 			<h1>Wireframes</h1>
 			<p><strong id="mobile" class="clickthing">Mobile View</strong>  ||  <strong id="desktop" class="clickthing">Desktop view</strong></p>
 			<div id="img1">
-				<img src="img/mobile.png" alt="smart phone wire frame" width="30%" height="auto">
+				<img class="wireframe" src="img/mobile.png" alt="smart phone wire frame">
 			</div>
 			<div id="img2">
-				<img src="img/desktopwireframes.png" alt="desktop wire frame" width="50%" height="auto">
+				<img class="wireframe2" src="img/desktopwireframes.png" alt="desktop wire frame">
 			</div>
 		</section>
 
